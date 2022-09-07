@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Universal Kiosk</title>
+        <link rel="stylesheet" href="browser.css">
+        <script src="browser.js"></script>
+    </head>
+    <body>
+        <div id="control-bar">
+        </div>
+        <div id="location-layer">
+            <form id="location-form" action="">
+                <input id="location" type="text" value="https://" spellcheck="false"/>
+                <br/>
+               <input id='go' type="submit" value="submit"
+onclick="location.href=document.getElementById('location').value"
+            </form>
+        </html>
